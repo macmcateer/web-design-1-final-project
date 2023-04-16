@@ -1,0 +1,103 @@
+html {
+    box-sizing: border-box;
+    }
+    *, *::before, *::after {
+    box-sizing: inherit;
+    } 
+
+h1, h2, h3 { 
+    font-family: "Roboto", sans-serif;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+p {
+    font-family: "Open Sans", sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+header {
+    background-color:  #0E1215;
+    width: 100%;
+}
+
+a {
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 2rem;
+}
+
+li {
+    color: white;
+}
+
+#services a:link, a:visited {
+    padding: 4px 12px;
+    border-radius: 2px;
+    font-family: "Roboto", sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    background-color: black;
+}
+
+#services a:focus, a:hover {
+    color: white;
+    background-color:  grey;
+}
+
+#about-me {
+    display: flex;
+}
+
+#services h2 {
+    text-align: center;
+}
+
+#services div {
+    display: flex;
+    padding: 5rem;
+}
+
+#my-work img {
+    display: grid;
+}
+
+article {
+    border-radius: 2px;
+    border-color: grey;
+}
+
+#tell-it-better h2 {
+    color: white;
+    text-align: center;
+}
+
+#tell-it-better {
+    background-color: black;
+}
+
+#tell-it-better article {
+    display: ;
+}
+
+blockquote {
+    color: white;
+}
+
+cite {
+    color: grey
+}
+
