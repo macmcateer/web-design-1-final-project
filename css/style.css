@@ -72,9 +72,7 @@ li {
     padding: 5rem;
 }
 
-#my-work img {
-    display: grid;
-}
+
 
 article {
     border-radius: 2px;
@@ -91,7 +89,7 @@ article {
 }
 
 #tell-it-better article {
-    display: ;
+    display: inline-block;
 }
 
 blockquote {
@@ -100,5 +98,16 @@ blockquote {
 
 cite {
     color: grey
+}
+
+.socials img {
+    width: 4rem;
+    list-style-type: none;
+    gap: 2rem;
+}
+
+#my-work img {
+    display: grid;
+    grid-template-areas: 2fr 6fr;
 }
 
